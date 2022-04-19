@@ -1,0 +1,14 @@
+{
+  "name": "load-external",
+  "version": "1.0.0",
+  "description": "live reload application running on a different port",
+  "main": "./lib/load-external.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "load-external --port:4200"
+  },
+  "author": "Jijo Pappachan",
+  "license": "ISC"
+}
